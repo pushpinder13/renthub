@@ -8,6 +8,7 @@ const authenticateToken = (req, res, next) => {
     return res.status(403).json({ message: 'Access denied. No token provided.' });
   }
 
+  
   try {
     const verified = jwt.verify(token, JWT_SECRET);
     req.user = verified; // Add the user info to the request object
