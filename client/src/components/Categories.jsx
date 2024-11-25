@@ -47,7 +47,7 @@ const Categories = () => {
       <p>
         Explore our wide range of vacation rentals that cater to all types of
         travelers. Immerse yourself in the local culture, enjoy the comforts of
-        home, and create unforgettable memories in your dream destination.
+        home, and create unforgettable memories in your dream destination with your loveones.
       </p>
 
       <div className="categories_list">
